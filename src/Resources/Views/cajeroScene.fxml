@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="499.0" prefWidth="597.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CajeroSceneController">
+    <children>
+      <TextField fx:id="resultArea" layoutX="15.0" layoutY="95.0" prefHeight="31.0" prefWidth="569.0" />
+      <TextArea fx:id="infoArea" layoutX="14.0" layoutY="24.0" prefHeight="60.0" prefWidth="569.0" text="Ingresa tu número de cuenta:" />
+      <Button fx:id="button8" layoutX="184.0" layoutY="144.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="81.0" text="8" />
+      <Button fx:id="button7" layoutX="74.0" layoutY="144.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="81.0" text="7" />
+      <Button fx:id="buttonBalance" layoutX="411.0" layoutY="144.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="88.0" text="Balance" />
+      <Button fx:id="button9" layoutX="301.0" layoutY="144.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="81.0" text="9" />
+      <Button fx:id="button4" layoutX="74.0" layoutY="231.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="81.0" text="4" />
+      <Button fx:id="button1" layoutX="74.0" layoutY="312.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="81.0" text="1" />
+      <Button fx:id="buttonCancel" layoutX="74.0" layoutY="400.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="81.0" text="Cancel" />
+      <Button fx:id="button6" layoutX="301.0" layoutY="231.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="81.0" text="6" />
+      <Button fx:id="button0" layoutX="184.0" layoutY="400.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="81.0" text="0" />
+      <Button fx:id="button2" layoutX="184.0" layoutY="312.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="81.0" text="2" />
+      <Button fx:id="button5" layoutX="184.0" layoutY="231.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="81.0" text="5" />
+      <Button fx:id="buttonWithdraw" layoutX="411.0" layoutY="312.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="88.0" text="Withdraw" />
+      <Button fx:id="buttonDeposit" layoutX="411.0" layoutY="231.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="88.0" text="Deposit" />
+      <Button fx:id="button3" layoutX="301.0" layoutY="312.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="81.0" text="3" />
+      <Button fx:id="buttonEnter" layoutX="301.0" layoutY="400.0" onAction="#handleButtonAction" prefHeight="49.0" prefWidth="198.0" text="Enter" />
+    </children>
+</AnchorPane>
